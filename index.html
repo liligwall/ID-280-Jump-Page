@@ -12,8 +12,24 @@
 
     <body>
 
-        <h1>Lili's Jump Site</h1>
-        <h2>ID-280 Interative Design I</h2>
+        <header>
+
+            <h1>Lili's Jump Site</h1>
+            <h2>ID-280 Interative Design I</h2>
+
+            <!-- use Emmet Syntax to rapidly bus out some HTML-->
+            <!-- nav>ul>li*3>a -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects/">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
 
             <p>
                 Welcome to my Jump Site.
@@ -23,19 +39,37 @@
             </p>
 
             <!-- ul>li*5 -->
-        <h3>
-            Straight Facts
-        </h3>
 
-           <ul>
+            <h3>
+                Straight Facts
+            </h3>
+
+            <ul>
                <li> Name: Lili Wall</li>
                <li> Major: Video & Film </li>
                <li> From: Mississippi</li>
                <li> Cool Fact: Born in China</li>
                <li> Future Job Prefrence: I want to be a Cinematographer for Commercials/Advertisemnts</li>
-           </ul>
+            </ul>
 
-           <footer>&copy; 2020 Lili Wall</footer>
+        </main>
+
+        <footer>
+               
+            <!-- a>img -->
+            <a href="http://ritual.com"><img src="assets/images/Vitamin_Clickbait.png" alt="Clickbait Ad"></a>
+            
+            <a href="http://ritual.com"><img src="assets/images/Vitamin_Banner_Ad.png" alt="Banner Ad"></a>
+
+            <br>
+
+            <small>&copy; <time>2020</time> Lili Wall.</small>
+
+            <div id="motd"></div>
+
+        </footer>
+
+        <script src="assets/js/app.js"></script>
 
     </body>
 
