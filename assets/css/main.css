@@ -4,9 +4,11 @@
 /* @import "vendors/reset.css"; */
 
 @import "vendors/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 /* typography */
+
 
 body {
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,32 +16,34 @@ body {
 }
 
 h1 {
-   font-size: 36px;
+   font-size: 48px;
    font-weight: bold;
    margin: 10px;
    color:black;
-   text-decoration: underline;
 }
 
 h2 {
    margin: 10px;
-   font-size: 24px;
+   font-size: 36px;
    color: #EDB730;
 }
 
 h3 {
    margin: 10px;
    text-decoration: underline ;
+   font-size: 36px;
 }
 
 p{
-   font-size: 18px;
+   font-size: 24px;
    margin: 10px;
-   font-weight: 450;
+   font-weight: 500;
 }
 
 ul {
    margin:10px;
+   font-size: 24px;
+   font-weight: 500;
 }
 
 img {
@@ -54,3 +58,14 @@ nav a:visited{
    color: brown;
 }
 
+footer {
+   font-weight: 500;
+   font-size: 24px;
+}
+
+/* Background Image */
+
+body {
+   background-image: url("../images/paint-streaks.jpg");
+   background-size: cover;
+}
