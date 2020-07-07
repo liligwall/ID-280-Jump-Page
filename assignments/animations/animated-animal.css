@@ -1,0 +1,84 @@
+/*
+ * filename: animated-animal.css
+ * author: Lili Wall
+ * date: 07/07/20
+ * description: A css file to apply animations to divs and create an animated animal or something
+ */
+
+@import "../../assets/css/vendors/normalize.css";
+
+body {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#animatedimal {
+    width: 640px;
+    height: 480px;
+    border: 3px solid #000;
+    position: relative;
+}
+
+#sun {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 25px;
+    left: 250px;
+    position: absolute;
+}
+
+#mountain-L {
+    width: 0;
+    height: 0;
+    top: 50px;
+    left: 120px;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+
+    border-right: 200px solid rgb(85, 85, 85);
+
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+#mountain-C {
+    width: 0;
+    height: 0;
+    top: 50px;
+    left: 220px;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+
+    border-left: 200px solid grey;
+
+    position: absolute;
+    transform: rotate(270deg);
+}
+
+#mountain-R {
+    width: 0;
+    height: 0;
+    top: 50px;
+    left: 320px;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+
+    border-right: 200px solid rgb(155, 155, 155);
+
+    position: absolute;
+    transform: rotate(90deg); 
+}
+
+#water {
+    position: absolute;
+    top: 320px;
+    left: 15px;
+    height: 70px;
+    width: 615px;
+    background: #72c7ff;
+    border-radius: 50%;
+}
+
+
